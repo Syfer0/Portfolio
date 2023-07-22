@@ -15,6 +15,7 @@ body{
     max-width: 600px;
     margin: auto;
 }
+/* links */
 .links{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -30,4 +31,33 @@ body{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-colour);
 }
- 
+hr{
+    margin: 1rem 0rem;
+}
+ .non-bullet{
+    list-style: none;
+ }
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+/* nagivation */
+.navigation{
+    background-color: var(--primary-colour);4
+    padding: 1rem ;
+    
+}
+.navigation .links{
+    color: white;
+}
+.brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem ;
+}
+.navigation{
+    text-align: right;
+    color: white;
+    font-weight: bol;
+}
