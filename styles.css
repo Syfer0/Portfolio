@@ -4,7 +4,8 @@ body{
     sans-serif;
 }
 :root{
-    --primary-colour: #7c3aed
+    --primary-colour: #7c3aed;
+    --dark-colour: #6b7280;
 }
 /* container */
 .container{
@@ -44,20 +45,45 @@ hr{
 }
 /* nagivation */
 .navigation{
-    background-color: var(--primary-colour);4
+    background-color: var(--primary-colour);
     padding: 1rem ;
+    color: white;
+    border-bottom-left-radius: 1rem;
     
 }
 .navigation .links{
     color: white;
 }
-.brand {
+.navigation .brand {
     color: white;
     font-weight: bold;
-    font-size: 1.1rem ;
+    font-size: 1rem ;
+    
 }
-.navigation{
+.navigation .nav-pills{
     text-align: right;
+}
+.navigation .links{
     color: white;
-    font-weight: bol;
+
+}
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* heading */
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-colour)
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-colour);
 }
