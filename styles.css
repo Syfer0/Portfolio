@@ -3,7 +3,9 @@ body{
     font-family: 'Montserrat', 
     sans-serif;
 }
-
+:root{
+    --primary-colour: #7c3aed
+}
 /* container */
 .container{
     padding-left: 1rem;
@@ -12,5 +14,20 @@ body{
 .center-container{
     max-width: 600px;
     margin: auto;
+}
+.links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+.primery-link{
+    background-color: var(--primary-colour);
+    border-radius: 0.5rem;
+    color: white;
+}
+.secondry-link{
+    color: var(--primary-colour);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-colour);
 }
  
