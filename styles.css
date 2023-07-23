@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 body{
     font-family: 'Montserrat', 
     sans-serif;
     margin: 0px;
-    
+
 }
 :root{
     --primary-colour: #7c3aed;
@@ -14,6 +15,7 @@ body{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 .center-container{
     max-width: 600px;
@@ -96,11 +98,15 @@ hr{
 
 .section h1{
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 
+}
+.aw{
+    padding: 0rem;
 }
 .ow{
     background-color: var(--off-white-colour);
+    padding: 0.5rem ;
     
 }
 /* footer */
@@ -109,6 +115,7 @@ hr{
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
+    color: white;
     
 }
 .footer .links{
@@ -116,4 +123,9 @@ hr{
 }
 .footer .ul{
     padding-inline-start: 0px;
+}
+.footer .footer-header{
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
