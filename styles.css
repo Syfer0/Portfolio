@@ -21,6 +21,10 @@ body{
     max-width: 600px;
     margin: auto;
 }
+/* spces */
+.margin-md{
+    padding: 1rem ;
+}
 /* links */
 .links{
     text-decoration: none;
