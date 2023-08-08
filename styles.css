@@ -133,3 +133,12 @@ hr{
     font-weight: bold;
     font-size: large;
 }
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+}
